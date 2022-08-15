@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Aspecto Boton Generico */
+.btnGenerico {
+    background-color: #202930;
+    color: #ff8c00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*   Aspecto Boton Generico hover   */
+
+.btnGenerico:hover {
+    background-color: #ff8c00;
+    color: #202930;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header {
+    background: rgb(255,101,5);
+    background: linear-gradient(115deg, rgba(255,101,5,0.908000700280112) 0%, rgba(255,171,0,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+header .logo {
+    cursor: pointer;
+}
+.logo {
+    width: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.navbar ul {
+    display: flex;
+    align-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li:hover {
+    transform: scale(1.0);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 18px;
+    color: #202930;
+    margin: 10px 10px;
+}
+
+.navbar ul li a:hover {
+    color: #f9f9f9;
+    transition: all 1.0s;
+}
+.navbar ul li:active {
+    background-color: #e2c222;
+}
+
+.tituloPrincipal {
+    color: #fbfbfb;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.bannerPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7) url(../img/img-section-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 70vh;
+}
+h1 {
+    color: #202930;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    color: #202930;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.nuestrosProductos a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+/*     section cards     */
+.nuestrosProductos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #ffffff;
+    border: solid 1px #cad6d8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0px 70px 0px;
+}
+
+.card h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 22px;
+    color: #202930;
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    text-align: left;
+    max-width: 320px;
+    margin-top: 10px;
+}
+.card img {
+    max-width: 320px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.nuestrosProductos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cardNo {
+    background-color: #ffffff;
+    border: solid 1px #cad6d8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0px 70px 0px;
+    
+}
+
+.cardNo h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 22px;
+    text-align: ce;
+    color: #202930;
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.cardNo p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    max-width: 320px;
+    margin-top: 10px;
+}
+
+
+/*     section fabricacion artesanal    */
+
+
+.fabricacion {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    background-color: #ff8c00;
+    flex-wrap: wrap;
+}
+.imagen {
+    align-items: center;
+    display: flex;
+    flex:1;
+    min-width: 500px;
+    height: auto;
+}
+
+.artesanal {
+    display: flex;
+    align-items: flex-start;
+    height: 50vh;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+/*     Pedi por Whatsapp    */
+
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+.delivery img {
+    display: flex;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.delive {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 40vw;
+    margin: 10px 10px 10px 50px;
+}
+
+.delive h2 {
+    text-align: left;
+
+}
+.delive p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    max-width: 370px;
+    margin: 20px 0px 20px 0px;
+}
+
+.btnGenerico {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+
+/*     asi hacempos los pasteles    */
+
+.youtube {
+    display: flex;  
+    justify-content:center;
+    justify-content: space-between;
+}
+
+.contener {
+    display: flex;
+    background-color: #e2c222;
+    padding: 0px 00px 50px 50px;
+}
+
+.iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw ;
+}
+
+.artes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    
+}
+
+.tituloVideo {
+    font-size: 30px;
+    text-align: center;
+    background-color: #e2c222;
+    padding: 30px 0px;
+}
+
+.artes p {
+    text-align: left;
+    max-width: 10px 10px;
+}
+
+/*
+.videoNuevas iframe {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.videoNuevas p {
+    display: inline-block;
+    margin-bottom: 30px;
+} */
+.ordenar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+footer {
+    background: rgb(255,101,5);
+    background: linear-gradient(318deg, rgba(255,101,5,0.908000700280112) 0%, rgba(255,171,0,1) 100%);
+    height: 40px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #202930;
+    text-align: left;
+}
+.socialMedia {
+    list-style: none;
+}

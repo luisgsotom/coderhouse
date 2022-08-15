@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Proyecto Luis Soto</title>
+</head>
+<body>
+    <header>
+    <img class="logo" src="../img/logo.png" alt="logo-tr3slocos">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./combos.html">Combos</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./horarios.html">Horarios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi diam mi, est enim, amet. Morbi in ac non consequat donec. Pellentesque tellus tortor in a, consectetur. Facilisi hendrerit convallis dolor velit. In non dui volutpat feugiat enim et. Ultricies tortor nibh rutrum et mi.
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi diam mi, est enim, amet. Morbi in ac non consequat donec. Pellentesque tellus tortor in a, consectetur.
+        </p>
+        <form>
+            <!-- 
+                 * * * ASI LO EXPLICO EL PROFE EN LA CLASE * * *
+                <label>Nombre</label>
+            <br>
+            <input type="text" placeholder="Tu nombre">
+            <br>
+            <label>Apellido</label>
+            <br>
+            <input type="text" placeholder="Tu apellido">
+            <br>
+            <label>Teléfono</label>
+            <br>
+            <input type="text" placeholder="Ej. +5491112345678">
+            <br>
+            <label for="">Mensaje</label>
+            <br>
+            <textarea></textarea>
+            <br> -->
+            
+            <!--
+                * * AQUI INVESTIGUE COMO SERIA LA MEJOR PRACTICA * *
+                https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form
+            -->
+            <form>
+                <ul>
+                 <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                    <label for="last-name">Apellido:</label>
+                    <input type="text" id="last-name" name="user_last-name">
+                </li>
+                <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                </li>
+                </ul>            
+            <input type="submit" value="Enviar" class="btnGenerico">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © 2022 | Luis Gerardo Soto Mendoza</p>
+        <ul class="socialMedia">
+            <li>
+                <a href="#"><img src="../img/instagram.svg" alt=""></a>
+                <a href="#"><img src="../img/whatsapp.svg" alt=""></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
