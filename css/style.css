@@ -191,7 +191,7 @@ h2 {
 .cardNo h3 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 22px;
-    text-align: ce;
+    text-align: center;
     color: #202930;
     max-width: 250px;
     margin-top: 10px;
@@ -321,7 +321,7 @@ h2 {
 
 .artes p {
     text-align: left;
-    max-width: 10px 10px;
+    max-width: 10px;
 }
 
 /*
