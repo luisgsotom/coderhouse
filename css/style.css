@@ -177,10 +177,6 @@ h2 {
     text-align: center;
 }
 .cardNo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #ffffff;
     border: solid 1px #cad6d8;
     border-radius: 15px;
@@ -188,6 +184,7 @@ h2 {
     margin: 30px 0px 70px 0px;
     
 }
+
 .cardNo h3 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 22px;
@@ -321,7 +318,7 @@ h2 {
 
 .artes p {
     text-align: left;
-    max-width: 10px;
+    max-width: 10px 10px;
 }
 
 /*
@@ -334,15 +331,6 @@ h2 {
     display: inline-block;
     margin-bottom: 30px;
 } */
-
-/*    Imagenes seccion productos    */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-flex-direction: row;
-}
-
-
 .ordenar {
     display: flex;
     align-items: center;
