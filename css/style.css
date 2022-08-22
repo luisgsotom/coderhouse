@@ -177,12 +177,15 @@ h2 {
     text-align: center;
 }
 .cardNo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     border: solid 1px #cad6d8;
     border-radius: 15px;
     padding: 20px;
     margin: 30px 0px 70px 0px;
-    
 }
 
 .cardNo h3 {
@@ -337,6 +340,54 @@ h2 {
     justify-content: center;
     text-align: center;
     margin-bottom: 60px;
+}
+
+/* producto galeria  */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    max-width: 100wh;
+    margin-bottom: 40px;
+}
+.grid-gallery div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.grid-gallery div img {
+    height: 300px;
+} 
+
+p {
+    font-size: 16px;
+    padding: 20px;
+}
+
+/*    contacto    */
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.contacto .servirles {
+    max-width: 500px;
+}
+.contacto .servirles h3 {
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
 }
 footer {
     background: rgb(255,101,5);
