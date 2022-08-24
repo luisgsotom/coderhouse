@@ -144,9 +144,10 @@ h2 {
     background-color: #ffffff;
     border: solid 1px #cad6d8;
     border-radius: 15px;
-    padding: 20px;
-    margin: 30px 0px 70px 0px;
+    padding: 20px 10px;
+    margin: 30px 0px 40px 0px;
     border: none;
+    box-shadow: 1px 0px 16px -3px rgba(0,0,0,0.34);
 
 }
 
@@ -164,7 +165,7 @@ h2 {
     font-weight: 400;
     color: #303030;
     text-align: left;
-    width: 480px;
+    width: 380px;
     margin-top: 10px;
 }
 .card img {
@@ -381,24 +382,98 @@ h2 {
 /* producto galeria  */
 .grid-gallery {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    max-width: 100wh;
-    margin-bottom: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    margin: 2em;
 }
-.grid-gallery div {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+div img{
+    width: 100%;
+    height: auto;
 }
 
-.grid-gallery div img {
-    height: 300px;
-} 
+div img:hover {
+    filter: blur(2px);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-filter: grayscale(1);
 
-p {
+}
+
+.parrafo {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding: 20px;
+    font-weight: 400;
+    color: #303030;
+    margin: 2em;
+}
+
+/*  horario  */
+
+.pHorario {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.horario {
+    width: 30%;
+    background-color: #ffffff;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 1px 0px 16px -3px rgba(0,0,0,0.34);
+}
+
+.horario h3 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding: 30px 40px; 
+    background-color: #ff8c00;
+    margin-bottom: 10px;
+}
+.horario .cerradoh3 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 40px; 
+    background-color: #303030;
+    margin-bottom: 10px; 
+}
+
+.horario .cerrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+.horario .cerrado h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 32px;
+    color: #303030
+}
+
+.horario .bloque {
+    margin: 50px;
+    padding-left: 80px;
+}
+.horario .bloque .horas h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.horario .bloque .horas p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 /*    contacto    */
@@ -450,7 +525,7 @@ p {
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    justify-content: ce;
+    justify-content: center;
 }
 
 footer {
