@@ -36,61 +36,38 @@ body {
     text-decoration: none;
     transition: all 0.5s;
 }
+/* header con Bootstrap */
 
-header {
+.bg-propio {
     background: rgb(255,101,5);
     background: linear-gradient(115deg, rgba(255,101,5,0.908000700280112) 0%, rgba(255,171,0,1) 100%);
     padding-top: 10px;
     padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
 }
-header .logo {
-    cursor: pointer;
-}
-.logo {
-    width: 90px;
+
+.navbar-brand {
     padding-top: 10px;
     padding-bottom: 10px;
     transition: all 0.3s;
 }
 
-.logo:hover {
+.navbar-brand:hover {
     transform: scale(1.2);
 }
 
-.navbar ul {
-    display: flex;
-    align-content: space-between;
-    list-style: none;
-    text-align: center;
-}
-.navbar li {
-    display: inline-block;
-}
-
-.navbar li:hover {
-    transform: scale(1.0);
-}
-
-nav ul li a {
+.nav-item a {
     text-decoration: none;
     font-family: 'Alfa Slab One', cursive;
     font-size: 18px;
     color: #202930;
     margin: 10px 10px;
 }
-
-.navbar ul li a:hover {
+.nav-item a:hover {
     color: #f9f9f9;
     transition: all 1.0s;
 }
-.navbar ul li:active {
-    background-color: #e2c222;
-}
 
+/* banner CSS */
 .tituloPrincipal {
     color: #fbfbfb;
     font-family: 'Alfa Slab One', cursive;
@@ -125,190 +102,40 @@ h2 {
     text-align: center;
 }
 
-.nuestrosProductos a {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+/*  grid de Boostrap */
 
-    
-}
-
-/*     section cards     */
-.nuestrosProductos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
-}
 .card {
-    background-color: #ffffff;
-    border: solid 1px #cad6d8;
-    border-radius: 15px;
-    padding: 20px 10px;
-    margin: 30px 0px 40px 0px;
     border: none;
-    box-shadow: 1px 0px 16px -3px rgba(0,0,0,0.34);
-
+    padding: 10px;
+    box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
 }
 
-.card h3 {
+.card-body h3 {
     font-family: 'Alfa Slab One', cursive;
-    font-size: 22px;
+    font-size: 28px;
     color: #202930;
-    margin-top: 10px;
-
-}
-
-.card p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #303030;
-    text-align: left;
-    width: 380px;
-    margin-top: 10px;
-}
-.card img {
-    text-align: center;
-    border-radius: 8px 8px 0px 0px;
-}
-
-/*  bootstrap codigo boton combos  */
-
-.nuestrosProductos .card .btn-primary {
-    background-color: #202930;
-    color: #ff8c00;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    display: inline-block;
-}
-.nuestrosProductos .card .btn-primary:hover {
-    background-color: #ff8c00;
-    color: #202930;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.5s;
-    border: none;
-}
-
-.nuestrosProductos .card .card-title {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 22px;
-    color: #202930;
-    margin-top: 10px;
-
-}
-.nuestrosProductos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.cardNo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    border: solid 1px #cad6d8;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 30px 0px 70px 0px;
-}
-
-.cardNo h3 {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 22px;
-    text-align: center;
-    color: #202930;
-    max-width: 250px;
-    margin-top: 10px;
-}
-
-.cardNo p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #303030;
-    max-width: 320px;
-    margin-top: 10px;
 }
 
 
 /*     section fabricacion artesanal    */
 
-
 .fabricacion {
-    display: flex;
-    width: 100vw;
-    flex-direction: row;
     background-color: #ff8c00;
-    flex-wrap: wrap;
-}
-.imagen {
-    align-items: center;
-    display: flex;
-    flex:1;
-    min-width: 500px;
-    height: auto;
 }
 
 .artesanal {
-    display: flex;
-    align-items: flex-start;
-    height: 50vh;
-    flex: 1;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
+    padding-left: 30px;
+}
+
+.artesanal h2 {
+    text-align: left;
 }
 
 /*     Pedi por Whatsapp    */
 
-.delivery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-}
 
-
-.delivery img {
-    display: flex;
-    height: 400px;
-    margin-left: 25%;
-    margin-top: 3%;
-}
-
-.delive {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    width: 40vw;
-    margin: 10px 10px 10px 50px;
-}
-
-.delive h2 {
-    text-align: left;
-
-}
-.delive p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #303030;
-    max-width: 370px;
-    margin: 20px 0px 20px 0px;
-}
 
 .btnGenerico {
     display: flex;
@@ -321,62 +148,15 @@ h2 {
 
 /*     asi hacempos los pasteles    */
 
-.youtube {
-    display: flex;  
-    justify-content:center;
-    justify-content: space-between;
+.fondoReceta {
+    background-color: #ffd000;
+    padding: 30px 0;
 }
 
-.contener {
-    display: flex;
-    background-color: #e2c222;
-    padding: 0px 00px 50px 50px;
-}
-
-.iframe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50vw ;
-}
-
-.artes {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 30px;
-    
-}
-
-.tituloVideo {
-    font-size: 30px;
-    text-align: center;
-    background-color: #e2c222;
-    padding: 30px 0px;
-}
-
-.artes p {
-    text-align: left;
-    max-width: 10px 10px;
-}
-
-/*
-.videoNuevas iframe {
-    margin-left: 100px;
-    display: inline-block;
-}
-
-.videoNuevas p {
-    display: inline-block;
-    margin-bottom: 30px;
-} */
-.ordenar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 60px;
+.fondoReceta h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 28px;
+    color: #202930;
 }
 
 /* producto galeria  */
@@ -386,12 +166,8 @@ h2 {
     gap: 1em;
     margin: 2em;
 }
-div img{
-    width: 100%;
-    height: auto;
-}
 
-div img:hover {
+.greyHover:hover {
     filter: blur(2px);
     cursor: pointer;
     transition: all 0.5s ease;
@@ -409,17 +185,17 @@ div img:hover {
 
 /*  horario  */
 
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
 .pHorario {
     font-family: 'Alfa Slab One', cursive;
     font-size: 24px;
     text-align: center;
     margin-top: 20px;
-}
-
-.tarjetas {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .horario {
@@ -483,20 +259,28 @@ div img:hover {
     align-items: center;
     justify-content: center;
     height: 80vh;
+    margin: 0 100px;
 }
 
 .contacto .servirles {
-    max-width: 500px;
+    height: auto;
+    max-width: 400px;
+    margin-right: 1em;
 }
 .contacto .servirles h3 {
-    font-size: 22px;
-    margin: 0 20px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 28px;
+    color: #ff8c00;
+}
+
+.contacto .servirles p {
+    font-size: 16px;
 }
 
 .contacto form {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 450px;
     background-color: #fbfbfb;
     padding: 40px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
