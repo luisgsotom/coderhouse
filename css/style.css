@@ -159,6 +159,8 @@ h2 {
     color: #202930;
 }
 
+/*  GALERIA  */
+
 #galeria .col-lg-4 {
     margin: 0 !important;
     padding: 10px;
@@ -177,6 +179,19 @@ h2 {
 }
 
 /*  horario  */
+
+
+#tarjetas .col-lg-4 {
+    margin: 0 !important;
+    padding: 10px;
+}
+
+#galeria {
+    width: 100%;
+    height: 450px;
+
+}
+
 
 section {
     display: flex;
