@@ -159,28 +159,21 @@ h2 {
     color: #202930;
 }
 
-/* producto galeria  */
-.grid-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1em;
-    margin: 2em;
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 10px;
 }
 
-.greyHover:hover {
+#galeria img {
+    width: 100%;
+    height: auto;
+}
+
+#galeria img:hover {
     filter: blur(2px);
     cursor: pointer;
     transition: all 0.5s ease;
     -webkit-filter: grayscale(1);
-
-}
-
-.parrafo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #303030;
-    margin: 2em;
 }
 
 /*  horario  */
