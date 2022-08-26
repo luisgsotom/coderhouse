@@ -185,12 +185,6 @@ h2 {
 
 /*  horario  */
 
-section {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-}
-
 .pHorario {
     font-family: 'Alfa Slab One', cursive;
     font-size: 24px;
@@ -198,23 +192,26 @@ section {
     margin-top: 20px;
 }
 
-.horario {
-    width: 30%;
-    background-color: #ffffff;
-    margin: 20px 0;
-    border-radius: 15px;
-    box-shadow: 1px 0px 16px -3px rgba(0,0,0,0.34);
-}
-
-.horario h3 {
+.card-body h3 {
     font-family: 'Alfa Slab One', cursive;
+    font-size: 23px;
     text-align: center;
     padding: 30px 40px; 
     background-color: #ff8c00;
     margin-bottom: 10px;
 }
-.horario .cerradoh3 {
+
+.card-body h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #eeeeee;
+    padding: 10px 40px; 
+}
+
+.card-body h5 {
     font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
     color: #ffffff;
     text-align: center;
     padding: 30px 40px; 
@@ -222,45 +219,20 @@ section {
     margin-bottom: 10px; 
 }
 
-.horario .cerrado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25%;
-}
-.horario .cerrado h4 {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 32px;
-    color: #303030
-}
-
-.horario .bloque {
-    margin: 50px;
-    padding-left: 80px;
-}
-.horario .bloque .horas h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.horario .bloque .horas p {
+.card-body p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px
+}
+
+.card-body .horas p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: #202930;
 }
 
 /*    contacto    */
-
-.contacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    margin: 0 100px;
-}
 
 .contacto .servirles {
     height: auto;
