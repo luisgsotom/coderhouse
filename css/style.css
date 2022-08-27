@@ -198,7 +198,7 @@ h2 {
 
 .tarjeta {
     border-radius: 10px;
-    width: 25rem;
+    width: 20rem;
     height: 400px;
     background-color:#ffffff;
     margin: 20px;
@@ -246,7 +246,7 @@ h2 {
     font-family: 'Alfa Slab One', cursive;
     color: #202930;
     font-size: 30px;
-    margin-top: 30%;
+    margin-top: 40%;
 }
 
 /*    contacto    */
