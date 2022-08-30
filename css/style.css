@@ -320,7 +320,7 @@ h2 {
 
 @media screen and (max-width: 320px) {
     .contacto {
-        width: 310px;
+        max-width: 310px;
         height: auto;
     }
     .btnGenerico {
