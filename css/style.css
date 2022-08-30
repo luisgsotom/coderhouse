@@ -285,17 +285,6 @@ h2 {
     border-radius: 15px;
 }
 
-@media screen and (max-width: 320px) {
-    .contacto {
-        width: 310px;
-        height: auto;
-    }
-    .btnGenerico {
-        width: 200px;
-    }
-}
-
-
 .contacto form label {
     margin: 10px;
     font-size: 16px;
@@ -319,6 +308,26 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Mediaqueries */
+
+@media screen and (max-width: 320px) {
+    .contacto {
+        width: 310px;
+        height: auto;
+    }
+    .btnGenerico {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+    .iframe {
+        width: 310px;
+        height: auto;
+    }
+
 }
 
 /*   footer   */
