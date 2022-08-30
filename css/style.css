@@ -319,7 +319,7 @@ h2 {
 /* Mediaqueries */
 
 @media screen and (max-width: 320px) {
-    .contacto {
+    .res320 {
         max-width: 310px;
         height: auto;
     }
