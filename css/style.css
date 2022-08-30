@@ -285,6 +285,16 @@ h2 {
     border-radius: 15px;
 }
 
+
+/* Media queries */
+@media screen and (min-width: 375px){
+    .contacto form {
+        width: 360px;
+    }
+    
+}
+    
+
 .contacto form label {
     margin: 10px;
     font-size: 16px;
