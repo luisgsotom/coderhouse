@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+header {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
 body {
     background-color: #fbfbfb;
     font-family: 'Open Sans', sans-serif;
@@ -285,17 +291,6 @@ h2 {
     border-radius: 15px;
 }
 
-@media screen and (max-width: 320px) {
-    .contacto form {
-        width: 310px;
-        height: auto;
-    }
-    .btnGenerico {
-        width: 200px;
-    }
-}
-
-
 .contacto form label {
     margin: 10px;
     font-size: 16px;
@@ -321,6 +316,18 @@ h2 {
     justify-content: center;
 }
 
+/* Mediaqueries */
+
+@media screen and (max-width: 320px) {
+    .res320 {
+        max-width: 310px;
+        height: auto;
+    }
+    .btnGenerico {
+        width: 200px;
+    }
+}
+
 /*   footer   */
 
 
@@ -328,6 +335,7 @@ footer {
     background: rgb(255,101,5);
     background: linear-gradient(318deg, rgba(255,101,5,0.908000700280112) 0%, rgba(255,171,0,1) 100%);
     height: 100px;
+    width: 100%;
     padding: 10px 40px;
     display: flex;
     flex-direction: row;
