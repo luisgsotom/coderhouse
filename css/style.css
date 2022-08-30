@@ -285,15 +285,16 @@ h2 {
     border-radius: 15px;
 }
 
-
-/* Media queries */
-@media screen and (min-width: 375px){
+@media screen and (max-width: 320px) {
     .contacto form {
-        width: 360px;
+        width: 310px;
+        height: auto;
     }
-    
+    .btnGenerico {
+        width: 200px;
+    }
 }
-    
+
 
 .contacto form label {
     margin: 10px;
