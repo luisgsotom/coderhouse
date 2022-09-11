@@ -1,12 +1,12 @@
 .bg-propio {
     background: $backgoundColorHeader;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: map-get($estilos, paddingUno);
+    padding-bottom: map-get($estilos, paddingUno);
 }
 
 .navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: map-get($estilos, paddingUno);
+    padding-bottom: map-get($estilos, paddingUno);
     transition: all 0.3s;
     &:hover {
         transform: scale(1.2);

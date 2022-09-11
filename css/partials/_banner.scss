@@ -19,6 +19,6 @@
         font-size: 18px;
         font-weight: 400;
         color: $bannerFontColor;
-        padding-bottom: 10px;
+        padding-bottom: map-get($estilos, paddingUno);
     }
 }
